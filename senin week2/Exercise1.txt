@@ -48,3 +48,4 @@
 >		do "Memuji Siswa/Siswi"
 >		add "murid" by 1
 
+Test
