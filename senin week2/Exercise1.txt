@@ -20,9 +20,9 @@
 >		else
 >			DIPLAY "Bukan Tahun Kabisat"
 >	else
->		DISPLAY "tahun Kabisat"
+>		DISPLAY "Tahun Kabisat"
 >else
->	DISPLAY "BUkan Tahun Kabisat" 
+>	DISPLAY "Bukan Tahun Kabisat" 
 
 
 3.Laundry Day
