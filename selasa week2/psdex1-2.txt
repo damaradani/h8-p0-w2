@@ -1,18 +1,53 @@
-Exercise 2 "Menggunakan if Else"
+Exercise 3 "Menggunakan if Else"
 
-STORE "nama" with any value
-STORE "peran" with any value
+>STORE "nama" with any value
+>STORE "peran" with any value
 
-IF "peran" = "Ksatria" AND "nama" != ""
-	DISPLAY "Selamat datang di Dunia Proxytia, "+ "nama"
-	DISPLAY "Halo "+ "peran", "nama"+" Kamu dapat menyerang dengan senjatamu!"
-ELSE IF "peran" = "Tabib" AND "nama" != ""
-	DISPLAY "Selamat datang di Dunia Proxytia, "+ "nama"
-	DISPLAY "Halo "+ "peran", "nama"+" Kamu akan membantu temanmu yang terluka."
-ELSE IF "peran" = "Penyihir" AND "nama" != ""
-	DIPLAY "Selamat datang di Dunia Proxytia, "+ "nama"
-	DISPLAY "Halo "+ "peran", "nama"+" ciptakan keajaiban yang membantu kemenanganmu!"
-ELSE IF "peran = "" AND AND "nama" != ""
-	DIPLAY "Halo "+ "nama" +",Pilih Peranmu untuk memulai game"
-ELSE
-	DISPLAY "Nama harus diisi!"
+>IF "peran" = "Ksatria" AND "nama" != ""
+>	DISPLAY "Selamat datang di Dunia Proxytia, "+ "nama"
+>	DISPLAY "Halo "+ "peran", "nama"+" Kamu dapat menyerang dengan senjatamu!"
+>ELSE IF "peran" = "Tabib" AND "nama" != ""
+>	DISPLAY "Selamat datang di Dunia Proxytia, "+ "nama"
+>	DISPLAY "Halo "+ "peran", "nama"+" Kamu akan membantu temanmu yang terluka."
+>ELSE IF "peran" = "Penyihir" AND "nama" != ""
+>	DIPLAY "Selamat datang di Dunia Proxytia, "+ "nama"
+>	DISPLAY "Halo "+ "peran", "nama"+" ciptakan keajaiban yang membantu kemenanganmu!"
+>ELSE IF "peran = "" AND AND "nama" != ""
+>	DIPLAY "Halo "+ "nama" +",Pilih Peranmu untuk memulai game"
+>ELSE
+>	DISPLAY "Nama harus diisi!"
+
+
+Exercise 4 "Menggunakan Switch-Case"
+
+>STORE "hari" to any value
+>STORE "bulan" to any value
+>STORE "tahun" to any value
+
+>SWITCH "bulan"
+>case "bulan" = 1
+>	SET "bulan" = "Januari"
+>case "bulan" = 2
+>	SET "bulan" = "Februari"
+>case "bulan" = 3
+>	SET "bulan" = "Maret"
+>case "bulan" = 4
+>	SET "bulan" = "April"
+>case "bulan" = 5
+>	SET "bulan" = "Mei"
+>case "bulan" = 6
+>	SET "bulan" = "Juni"
+>case "bulan" = 7
+>	SET "bulan" = "Juli"
+>case "bulan" = 8
+>	SET "bulan" = "Agustus"
+>case "bulan" = 9
+>	SET "bulan" = "September"
+>case "bulan" = 10
+>	SET "bulan" = "Oktober"
+>case "bulan" = 11
+>	SET "bulan" = "November"
+>case "bulan" = 12
+>	SET "bulan" = "Desember"
+>DEFAULT
+>	DISPLAY "Bulan hanya sampai 12!"
