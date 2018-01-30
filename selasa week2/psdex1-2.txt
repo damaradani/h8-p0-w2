@@ -1,0 +1,16 @@
+Exercise 2 "Menggunakan if Else"
+
+STORE "nama" with any value
+STORE "peran" with any value
+
+IF "peran" = "Ksatria"
+	DISPLAY "nama"
+	DISPLAY "Peran Anda Sebagai Ksatria"
+ELSE IF "peran" = "Tabib"
+	DISPLAY "nama"
+	DISPLAY "Peran Anda Sebagai Tabib"
+ELSE IF "peran" = "Penyihir"
+	DIPLAY "nama"
+	DISPLAY "Peran Anda Sebagai Penyihir"
+ELSE 
+	DIPLAY "Pilih Peranmu untuk memulai game"	
