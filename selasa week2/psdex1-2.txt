@@ -3,14 +3,16 @@ Exercise 2 "Menggunakan if Else"
 STORE "nama" with any value
 STORE "peran" with any value
 
-IF "peran" = "Ksatria"
-	DISPLAY "nama"
-	DISPLAY "Peran Anda Sebagai Ksatria"
-ELSE IF "peran" = "Tabib"
-	DISPLAY "nama"
-	DISPLAY "Peran Anda Sebagai Tabib"
-ELSE IF "peran" = "Penyihir"
-	DIPLAY "nama"
-	DISPLAY "Peran Anda Sebagai Penyihir"
-ELSE 
-	DIPLAY "Pilih Peranmu untuk memulai game"	
+IF "peran" = "Ksatria" AND "nama" != ""
+	DISPLAY "Selamat datang di Dunia Proxytia, "+ "nama"
+	DISPLAY "Halo "+ "peran", "nama"+" Kamu dapat menyerang dengan senjatamu!"
+ELSE IF "peran" = "Tabib" AND "nama" != ""
+	DISPLAY "Selamat datang di Dunia Proxytia, "+ "nama"
+	DISPLAY "Halo "+ "peran", "nama"+" Kamu akan membantu temanmu yang terluka."
+ELSE IF "peran" = "Penyihir" AND "nama" != ""
+	DIPLAY "Selamat datang di Dunia Proxytia, "+ "nama"
+	DISPLAY "Halo "+ "peran", "nama"+" ciptakan keajaiban yang membantu kemenanganmu!"
+ELSE IF "peran = "" AND AND "nama" != ""
+	DIPLAY "Halo "+ "nama" +",Pilih Peranmu untuk memulai game"
+ELSE
+	DISPLAY "Nama harus diisi!"
