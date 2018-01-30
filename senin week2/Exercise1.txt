@@ -1,51 +1,51 @@
 1.Newton Second Law
 
->store "m" = 600
->store "a" = 2
+>STORE "m" = 600
+>STORE "a" = 2 DIVIDED BY 3
 
->calculate "m" times "a"
->set "ΣF" value with calculation result
+>CALCULATE "m" TIMES "a"
+>SET "ΣF" value with calculation result
 
->display "ΣF"
+>DISPLAY "ΣF"
 
 
 2.Tahun Kabisat
 
->store "tahun" to any value
+>STORE "tahun" to any value
 
->if "tahun" mod 4 is 0 
->	if "tahun" mod 100 is 0
->		if "tahun" mod 400 is 0
+>IF "tahun" mod 4 is 0 
+>	IF "tahun" mod 100 is 0
+>		IF "tahun" mod 400 is 0
 >			DISPLAY "Tahun Kabisat"
->		else
+>		ELSE
 >			DIPLAY "Bukan Tahun Kabisat"
->	else
+>	ELSE
 >		DISPLAY "Tahun Kabisat"
->else
+>ELSE
 >	DISPLAY "Bukan Tahun Kabisat" 
 
 
 3.Laundry Day
 
->store "pakaian" to any value
+>STORE "pakaian" to any value
 
->while "pakaian" <= 20
->	display "Memasukan 1 pakaian"
->	add "pakaian" by 1
->Display "Mesin Cuci Menyala"
+>WHILE "pakaian" <= 20
+>	DISPLAY "Memasukan 1 pakaian"
+>	ADD "pakaian" by 1
+>DISPLAY "Mesin Cuci Menyala"
 
 
 4.Periksa Kuku
 
->store "murid" to 0
->store "kuku" to any value
+>STORE "murid" to 0
+>STORE "kuku" to any value
 
->while "murid" <= 40
->	if "kuku" = "Panjang"		
->		do "Menghukum Siswa/Siswi"
->		add "murid" by 1	
->	else	 
->		do "Memuji Siswa/Siswi"
->		add "murid" by 1
+>WHILE "murid" <= 40
+>	IF "kuku" = "Panjang"		
+>		DO "Menghukum Siswa/Siswi"
+>		ADD "murid" by 1	
+>	ELSE	 
+>		DO "Memuji Siswa/Siswi"
+>		ADD "murid" by 1
 
 
