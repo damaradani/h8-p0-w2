@@ -22,7 +22,7 @@ while(rows2 > 0){
 
 
 // 3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
-console.log('Tugas Exercise 7 No.3');
+console.log('Tugas Exercise 7 No.3 pake FOR:');
 var star ='*';
 var starow = star.length;
 var rows3 = 5;
@@ -30,4 +30,22 @@ var rows3 = 5;
 for(starow; starow <= rows3; starow++){
     console.log(star);
     star +="*";
+}
+
+console.log('Tugas Exercise 7 No.3 pake WHILE:');
+var star = '*';
+var rows3 = 5;
+while(rows3 > 0){
+  console.log(star);
+  star += '*';
+  rows3--;
+}
+
+console.log('Tugas Exercise 7 No.3 pake Nested Looping FOR and WHILE:');
+var star3 = '*';
+for(var rows3 = 5; rows3 > 0; rows3--){
+  while(star3.length<=rows3){
+    console.log(star3);  
+    star3 += '*';
+  }
 }
