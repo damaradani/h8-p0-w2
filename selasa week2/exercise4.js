@@ -54,25 +54,3 @@ switch (bulan){
   default:
     console.log("Bulan hanya sampai 12!");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
