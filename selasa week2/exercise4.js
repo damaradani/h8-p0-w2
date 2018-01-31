@@ -1,6 +1,6 @@
-var hari = 21;
-var bulan = 1;
-var tahun = 1945;
+var hari = 21; // masukan nilai variabel tanggal disini! (dengan angka antara 1 - 31)
+var bulan = 1; // masukan nilai variabel bulan disini! (dengan angka antara 1 - 12)
+var tahun = 1945; // masukan nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 switch (bulan){
   case 1:
